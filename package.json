@@ -1,0 +1,52 @@
+{
+  "name": "redaction-hooks",
+  "version": "1.0.0",
+  "description": "Reducers without constants and dispatch via React Hooks",
+  "homepage": "https://github.com/pavelivanov/redaction-hooks#readme",
+  "author": "Pavel Ivanov <grammka@gmail.com> (https://github.com/pavelivanov)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelivanov/redaction-hooks.git"
+  },
+  "keywords": [
+    "redaction",
+    "redux",
+    "action",
+    "reducer",
+    "creator",
+    "constants",
+    "dispatch",
+    "react",
+    "hooks"
+  ],
+  "main": "./lib",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "npm run build",
+    "clean": "rimraf ./lib",
+    "dev": "babel -w ./src --out-dir ./lib",
+    "build": "npm run clean && babel ./src --out-dir ./lib"
+  },
+  "peerDependencies": {
+    "redaction": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
+    "rimraf": "^2.6.3"
+  }
+}
