@@ -1,5 +1,5 @@
 {
-  "name": "redaction-hooks",
+  "name": "redooks",
   "version": "1.0.0",
   "description": "Reducers without constants and dispatch via React Hooks",
   "homepage": "https://github.com/pavelivanov/redaction-hooks#readme",
