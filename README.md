@@ -2,7 +2,7 @@
   <img src="./images/redaction-logo-big.png" height="70" />
 </p>
 
-> Package named by cool frontend developer @ivashev
+> Package named by cool frontend developer @ivashev and @yeapproject
 
 ### React hooks for [Redaction](https://github.com/pavelivanov/redaction)
 
